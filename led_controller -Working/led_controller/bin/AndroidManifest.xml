@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.funkboxing.led_controller"
+      android:versionName="@string/appVersion" android:versionCode="2">
+    <application android:label="@string/app_name" android:icon="@drawable/ledicon_4848_mdpi">
+        <activity android:name="com.funkboxing.led_controller.led_controller"
+                  android:label="@string/app_name" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.funkboxing.led_controller.DeviceListActivity"
+                  android:label="@string/select_device"
+                  android:theme="@android:style/Theme.Dialog"
+                  android:configChanges="orientation|keyboardHidden" />
+        
+</application>
+
+<uses-permission android:name="android.permission.BLUETOOTH" />
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+<uses-sdk android:minSdkVersion="9"></uses-sdk>
+</manifest> 

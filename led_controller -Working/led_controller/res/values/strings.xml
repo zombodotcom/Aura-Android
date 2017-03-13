@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Arduino Sound Reactive LED Controller</string>
+	<string name="appVersion">0.1a</string>
+	<string name="textHeader1String">Bluetooth Controller for Arduino Driven Sound Reactive LED Strips</string>
+
+
+
+	<string name="buttonText2">Engage</string>
+
+
+
+	<string name="spinner1_prompt">Select Mode</string>
+	<string-array name="spinner1_array">
+
+		<item>Flex Mono</item>
+		<item>Radiate</item>
+		<item>Audio Data</item>
+		<item>Spectrum 142</item>
+		<item>Rainbow</item>
+		<item>Flex</item>
+		<item>Ambient</item>
+		<item>Fire 2012</item>
+		<item>Audio Data Stereo</item>
+		<item>Spectrum Color</item>
+		<item>Sat Spectrum</item>
+		<item>Strip Flex</item>
+		<item>Print Audio</item>
+		<item>Change Palette</item>
+		<item>Pride</item>
+		<item>Flex Stereo</item>
+		<item>Strip Flex</item>
+	</string-array>
+
+	<string name="debug1_default">DEBUG1 MESSAGE</string>
+
+
+	<string name="connected">Disconnect from device</string>
+	<string name="disconnected">Connect to a device</string>
+	<string name="no_bt_device">Bluetooth is not available.</string>
+	<string name="bt_not_enabled_leaving">Bluetooth was not enabled.</string>
+	<string name="macFailed">Error retrieving MAC address.</string>
+	<string name="about_title">About</string>
+	<string name="aboutText">LED Controller - funkboxing</string>
+	<string name="website_url">http://www.funkboxing.com</string>
+	<string name="websiteButton">Goto Website</string>
+	<string name="okButton">OK</string>
+	<string name="pleaseWait">Please Wait</string>
+	<string name="makingConnectionString">Connecting to bluetooth device</string>
+	<string name="failedToConnect">Failed to connect to device.</string>
+
+	<!-- DeviceListActivity -->
+	<string name="scanning">scanning for devices</string>
+	<string name="select_device">select a device to connect</string>
+	<string name="none_paired">No devices have been paired</string>
+	<string name="none_found">No devices found</string>
+	<string name="title_paired_devices">Paired Devices</string>
+	<string name="title_other_devices">Other Available Devices</string>
+	<string name="button_scan">Scan for devices</string>
+</resources>
